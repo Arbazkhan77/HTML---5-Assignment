@@ -1,0 +1,60 @@
+
+@media(max-width : 900px)
+{    
+    .website{
+        justify-content: right;
+        padding: 10px 0px;
+    }
+    .website-info p{
+        display: none;
+    }
+}
+@media(max-width : 500px)
+{
+    .website, .header-row{
+        justify-content: center;
+    }
+    .icons, .nav-info{
+        width: auto;
+    }
+    .nav-row{
+        background: white;
+        padding: 15px 20px;
+    }
+    .navbar, .submenu{
+        display: none;
+    }
+    .bar i{
+        display: block;
+    }
+    .education-section{
+        width: auto;
+        left: 20px;
+    }
+    .course-1{
+        margin: 0px 20px;
+    }
+    .network{
+        margin: 150px 20px;
+    }
+    .Meeting-info{
+        width: 100%;
+        margin: 50px 10px 0px 10px;
+    }
+    .Meeting-template{
+        width: auto;
+    }
+    .contact-us, iframe, .headpart, .contact-row, .Meeting-1, .course-1,  .cards, .Numbers {
+           width: 100%;
+    }
+    .Education-row, .education-meeting, .bachelor-degree{
+        width: 100%;
+        padding: 70px 30px;
+    }
+    .fact-box-2{
+            margin-top: 0px;
+    }
+    .flex{
+        padding: 10px 30px;
+    }
+}
